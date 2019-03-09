@@ -1,0 +1,8 @@
+import systeminfo.MachineInfo as MachineInfo
+import systeminfo.LogFormat as Logger
+import systeminfo.InfoDraw as infodraw
+import sys
+
+if __name__ == '__main__':
+    DIC = infodraw.InfoDicCreator(sys.argv[1],Serialize=False)
+    infodraw.Draw_OnlyOne(DIC,'PE_LIST')

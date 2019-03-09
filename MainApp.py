@@ -3,8 +3,8 @@ import systeminfo.LogFormat as Logger
 #import systeminfo.InfoDraw as infodraw
 import sys
 
-#Debug = True
-Debug = False
+Debug = True
+#Debug = False
 def Listener(NetCard='eth2'):
     logger = Logger.getLogger(DebugMode=Debug)
     while True:
